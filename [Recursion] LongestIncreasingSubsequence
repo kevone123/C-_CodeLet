@@ -47,7 +47,8 @@ class Solution
   }
   private static int logestIncreasingSub(int [] arr)
   {
-    LicHelper(arr, indx);
+    List<Integer> list = new ArrayList<Integer>();
+    LicHelper(arr, list, 0);
     return max;
   }
 
